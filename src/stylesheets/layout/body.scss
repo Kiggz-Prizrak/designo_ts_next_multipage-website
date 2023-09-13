@@ -1,0 +1,24 @@
+* {
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  margin : 0;
+
+  height: 100vh;
+  @include flex_midle
+}
+
+.main_container {
+    width: 100%;
+  max-width: 1440px;
+  @include flex_separation;
+  flex-direction: column;
+  height: 100%;
+ 
+}
+
+main {
+  
+}
