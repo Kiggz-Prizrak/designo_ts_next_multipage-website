@@ -1,0 +1,11 @@
+header {
+  @include flex_separation;
+  width: 100%;
+  margin: 64px 0;
+}
+
+nav {
+  max-width: 370px;
+  width: 100%;
+  @include flex_separation;
+}
