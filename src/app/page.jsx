@@ -1,12 +1,9 @@
 import Image from "next/image";
 import { ProjectCard } from "@/components/ProjectCard";
+import { HomeContactSection } from "@/components/HomeContactSection";
 
 import BannerHome from "@/components/BannerHome";
 import HomeIconCard from "@/components/HomeIconCard";
-
-import IllustrationFriendlyIcon from "@/assets/icons/IllustrationFriendlyIcon";
-import IllustrationPassionnateIcon from "@/assets/icons/IllustrationPassionnateIcon";
-import IllustrationResourcefulIcon from "@/assets/icons/IllustrationResourcefulIcon";
 
 export default function Home() {
   // console.log(BannerHome)
@@ -50,6 +47,7 @@ export default function Home() {
           description="We are a group of enthusiastic folks who know how to put people first. Our success depends on our customers, and we strive to give them the best experience a company can provide."
         />
       </div>
+      <HomeContactSection />
     </main>
   );
 }
