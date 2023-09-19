@@ -1,0 +1,30 @@
+footer {
+  background-color: $black;
+  height: 393px;
+  width: 100%;
+  @include flex_midle;
+  a {
+    color: $white;
+  }
+}
+
+.footer_layout {
+  width: 100%;
+
+  max-width: 1111px;
+}
+
+.footer_nav_section {
+  border-bottom: solid 1px $dark_grey;
+  height: 120px;
+  margin : 64px 0;
+  @include flex_separation;
+}
+
+.footer_contact_section {
+  @include flex_separation;
+  p {
+    color: $white;
+    opacity: 0.5;
+  }
+}

@@ -1,0 +1,32 @@
+.banner_container {
+  background-color: $peach;
+  height: 640px;
+  margin-bottom: 80px ;
+  width: 100%;
+  border-radius: 15px;
+  @include flex_midle;
+  position: relative;
+  overflow: hidden;
+  color: $white;
+  span {
+    position: absolute;
+    right: 0;
+  }
+  picture {
+    right: 0px;
+    top: 0px;
+    position: absolute;
+  }
+}
+
+.banner_layout {
+   margin: 95px;
+   width: 100%;
+  //  @include flex_separation;
+}
+
+.bannerHome_content {
+  max-width: 540px;
+  width: 100%;
+ 
+}

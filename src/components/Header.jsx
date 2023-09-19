@@ -1,26 +1,15 @@
 import { Logo } from "@/assets/icons/Logo";
 import Link from "next/link";
 
+import { navLinks } from "@/variables";
+
+
 export const Header = () => {
-  const navLinks = [
-    {
-      name: "Our company",
-      path: "/about",
-    },
-    {
-      name: "Locations",
-      path: "/locations",
-    },
-    {
-      name: "Contact",
-      path: "/contact",
-    },
-  ];
 
   return (
     <header>
       <Link href="/">
-        <Logo />
+        <Logo color="black"/>
       </Link>
 
       <nav>

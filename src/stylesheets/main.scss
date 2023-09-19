@@ -2,8 +2,11 @@
 
 @import "abstracts/variables", "abstracts/mixins";
 
-@import  "base/fonts";
+@import "base/fonts";
 
 @import "layout/body";
 
-@import "components/header", "components/banner";
+@import "components/header", "components/footer", "components/banner",
+  "components/buttons.scss", "components/projectCard.scss", "components/homeIconCard.scss", "components/homeContactSection.scss";
+
+@import "pages/home";

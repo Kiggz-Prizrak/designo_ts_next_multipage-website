@@ -1,0 +1,51 @@
+.projectCard_container {
+  @include flex_midle;
+  // border-radius: 15px;
+  max-width: 540px;
+  width: 100%;
+  height: 100%;
+  // margin-bottom :10px;
+
+  position: relative;
+
+  color: $white;
+
+  overflow: hidden;
+  img {
+     width: 100%;
+    //  object-fit: contain;
+  }
+  picture {
+    @include flex_midle;
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    img {
+      width: 100%;
+      object-fit: cover;
+      height: 100%;
+      border-radius: 15px;
+    }
+    object-fit: contain;
+  }
+  overflow: hidden;
+}
+
+.projectCard_horizontal {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 640px;
+  max-width: 540px;
+  width: 100%;
+  .projectCard_container {
+    height: 305px ;
+  }
+}
+
+.projectCard_text {
+  z-index: 2;
+  width: 100%;
+  @include flex_column;
+}

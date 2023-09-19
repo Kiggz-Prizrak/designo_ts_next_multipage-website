@@ -1,4 +1,4 @@
-import '../stylesheets/main.scss'
+import "../stylesheets/main.scss";
 import { Inter } from "next/font/google";
 import Head from "next/head";
 
@@ -16,6 +16,10 @@ export default function RootLayout({ children }) {
   return (
     <html lang="fr">
       <Head>
+        <script
+          src="https://kit.fontawesome.com/cf430828ad.js"
+          crossorigin="anonymous"
+        ></script>
         <link rel="icon" href="/favicon.svg" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -27,7 +31,7 @@ export default function RootLayout({ children }) {
 
       {/* <body className={inter.className}> */}
       <body>
-        <div className='main_container'>
+        <div className="main_container">
           <Header />
           {children}
           <Footer />

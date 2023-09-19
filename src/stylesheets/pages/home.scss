@@ -1,0 +1,14 @@
+.projectCard_section {
+  height: 640px;
+  @include flex_separation;
+  margin: 64px 0;
+  width: 100%;
+
+  // flex-wrap: wrap;
+}
+
+
+.homeIconCard_Section {
+  width: 100%;
+  @include flex_separation;
+}

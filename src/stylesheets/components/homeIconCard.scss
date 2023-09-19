@@ -1,0 +1,10 @@
+.homeIconCard_container {
+  @include flex_column;
+  flex-wrap: wrap;
+  max-width: 350px;
+  text-align: center;
+  margin: 64px 0;
+}
+.homeIconCard_text {
+  @include flex_column
+} 
