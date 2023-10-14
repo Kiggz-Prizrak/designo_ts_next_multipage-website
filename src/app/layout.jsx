@@ -2,6 +2,8 @@ import "../stylesheets/main.scss";
 import { Inter } from "next/font/google";
 import Head from "next/head";
 
+
+
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 

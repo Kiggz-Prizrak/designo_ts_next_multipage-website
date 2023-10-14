@@ -1,3 +1,7 @@
+button {
+  cursor: pointer;
+}
+
 .button_on_dark {
   border-radius: 8px;
   border: none;
@@ -25,8 +29,18 @@
   background: none;
   color: $peach;
   height: 24px;
+  width: 24px;
   font-size: 16px;
   &:hover {
     color: $light_peach;
   }
+}
+
+.transparent_btn {
+  border: none;
+  background: none;
+  color: $white;
+  height: 24px;
+  
+
 }

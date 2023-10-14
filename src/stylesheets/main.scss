@@ -7,6 +7,6 @@
 @import "layout/body";
 
 @import "components/header", "components/footer", "components/banner",
-  "components/buttons.scss", "components/projectCard.scss", "components/homeIconCard.scss", "components/homeContactSection.scss";
+  "components/buttons.scss", "components/projectCard.scss", "components/homeIconCard.scss", "components/contactSection.scss", "components/activityCard";
 
-@import "pages/home";
+@import "pages/home", "pages/projectPage";

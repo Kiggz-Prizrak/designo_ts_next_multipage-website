@@ -1,7 +1,9 @@
+import React from "react";
 
-export const HomeContactSection = () => {
+const ContactSection = () => {
   return (
     <div className="homeContactSection_container">
+
       <div className="homeContactSection_layout">
         <div className="homeContactSection_text">
           <h2>Let s talk about your project</h2>
@@ -23,6 +25,9 @@ export const HomeContactSection = () => {
           <span></span>
         </div>
       </div>
+      
     </div>
   );
 };
+
+export default ContactSection;

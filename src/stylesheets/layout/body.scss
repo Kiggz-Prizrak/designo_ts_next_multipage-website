@@ -4,23 +4,23 @@
 }
 
 body {
-  margin : 0;
+  margin: 0;
 
   height: 100vh;
-  @include flex_midle
+  @include flex_midle;
 }
 
 .main_container {
-    width: 100%;
+  width: 100%;
 
   @include flex_separation;
   flex-direction: column;
   height: 100%;
- 
 }
 
 main {
   width: 100%;
-    max-width: 1111px;
-    @include flex_column
+  // height: 100%;
+  max-width: 1111px;
+  @include flex_column;
 }

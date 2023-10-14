@@ -4,7 +4,7 @@ import Image from "@/components/Image";
 
 const BannerHome = () => {
   return (
-    <div className="bannerHome_container banner_container">
+    <div className="bannerHome_container ">
       <span>
         {/* BackgroundCircle est le cercle de fond */}
         <BackgroundCircle />

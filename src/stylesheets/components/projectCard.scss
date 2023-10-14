@@ -1,19 +1,14 @@
 .projectCard_container {
+  border-radius: 15px;
   @include flex_midle;
-  // border-radius: 15px;
   max-width: 540px;
   width: 100%;
   height: 100%;
-  // margin-bottom :10px;
-
   position: relative;
-
   color: $white;
-
   overflow: hidden;
   img {
-     width: 100%;
-    //  object-fit: contain;
+    width: 100%;
   }
   picture {
     @include flex_midle;
@@ -25,7 +20,6 @@
       width: 100%;
       object-fit: cover;
       height: 100%;
-      border-radius: 15px;
     }
     object-fit: contain;
   }
@@ -40,12 +34,20 @@
   max-width: 540px;
   width: 100%;
   .projectCard_container {
-    height: 305px ;
+    height: 305px;
   }
 }
 
 .projectCard_text {
+  height: 100%;
   z-index: 2;
   width: 100%;
-  @include flex_column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #00000067;
+  a {
+    color: $white;
+  }
 }

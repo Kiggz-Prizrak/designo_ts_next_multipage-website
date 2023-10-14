@@ -1,0 +1,22 @@
+.activityCard_container{
+  max-width: 320px;
+  height: 478px;
+  gap: 20px;
+  border-radius: 15px;
+  background-color: $very_light_peach;
+  overflow: hidden
+} 
+
+.activityCard_text {
+  @include flex_column;
+  text-align: center;
+  margin: 32px;
+  
+  
+  h3 {
+    color: $peach;
+  }
+  h3, p {
+    margin: 0;
+  }
+}

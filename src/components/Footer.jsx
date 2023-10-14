@@ -3,6 +3,10 @@ import { navLinks } from "@/variables";
 
 import { Logo } from "@/assets/icons/Logo";
 
+// Import the FontAwesomeIcon component
+
+// import the icons you need
+
 export const Footer = () => {
   return (
     <footer>

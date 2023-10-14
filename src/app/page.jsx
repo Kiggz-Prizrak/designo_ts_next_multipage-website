@@ -1,9 +1,9 @@
-import Image from "next/image";
 import { ProjectCard } from "@/components/ProjectCard";
-import { HomeContactSection } from "@/components/HomeContactSection";
+import { HomeContactSection } from "@/components/ContactSection";
 
 import BannerHome from "@/components/BannerHome";
 import HomeIconCard from "@/components/HomeIconCard";
+import ContactSection from "@/components/ContactSection";
 
 export default function Home() {
   // console.log(BannerHome)
@@ -11,20 +11,24 @@ export default function Home() {
     <main>
       <BannerHome />
       <div className="projectCard_section">
+
         <ProjectCard
           title="web design"
-          link="home"
+          link="web-design"
+          imageLink="home"
           image="image-web-design-large.jpg"
         />
         <div className="projectCard_horizontal">
           <ProjectCard
             title="app design"
-            link="home"
+            imageLink="home"
+            link="/app-design"
             image="image-app-design.jpg"
           />
           <ProjectCard
             title="graphic design"
-            link="home"
+            imageLink="home"
+            link="/graphic-design"
             image="image-graphic-design.jpg"
           />
         </div>
@@ -47,7 +51,7 @@ export default function Home() {
           description="We are a group of enthusiastic folks who know how to put people first. Our success depends on our customers, and we strive to give them the best experience a company can provide."
         />
       </div>
-      <HomeContactSection />
+      <ContactSection />
     </main>
   );
 }
